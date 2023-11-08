@@ -1,0 +1,22 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    background-color: lavender;
+    color: rgb(235, 151, 179);
+}
+#d1{ 
+    background-color: pink;
+font-family: 'Oswald', sans-serif;;
+    line-height: 2;
+}
+#d3{
+
+    background-color: rgb(186, 111, 186);
+}
+
+#overflow{
+    overflow: scroll;
+}
