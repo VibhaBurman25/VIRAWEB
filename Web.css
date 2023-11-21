@@ -3,9 +3,36 @@
     padding: 0%;
     margin: 0%;
 }
-h1{
+h1:hover{
     background-color: lavender;
-    color: rgb(235, 151, 179);
+    color: violet;
+
+}
+#div5{
+   background-color:chartreuse;
+
+}
+
+h1{
+       text-align: center;
+       font-size: larger;
+       font-weight: 600;
+       color: blueviolet;
+    text-transform: uppercase;
+     font-style: italic;
+}
+section{
+
+    text-align: center;
+}
+h3{
+      text-transform: uppercase ;
+      text-wrap: ;
+      text-decoration: wavy;
+      font-style: italic;
+
+      
+
 }
 #d1{ 
     background-color: pink;
@@ -19,4 +46,13 @@ font-family: 'Oswald', sans-serif;;
 
 #overflow{
     overflow: scroll;
+    background-color: lab(from pink l a b);
+}
+p:hover{
+   color: blue; 
+   line-height: 30px;
+}
+p{
+    font-style: italic;
+
 }

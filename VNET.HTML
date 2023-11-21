@@ -1,0 +1,38 @@
+<div>
+    <table>
+        <tr>
+            <td>NAME: </td>
+            <td>
+                <asp:TextBox ID="txtname" runat="server"></asp:TextBox></td>
+        </tr>
+
+        <tr>
+            <td>AGE:</td>
+            <td>
+                <asp:TextBox ID="txtage" runat="server"></asp:TextBox></td>
+        </tr>
+
+        <tr>
+            <td>CITY:</td>
+            <td>
+                <asp:TextBox ID="txtcity" runat="server"></asp:TextBox></td>
+        </tr>
+        <tr>
+            <td>PHONE:</td>
+            <td>
+                <asp:TextBox ID="txtMOBILE" runat="server"></asp:TextBox></td>
+        </tr>
+
+        <tr>
+            <td>
+                <asp:Button ID="btninsert" runat="server" Text="insert" OnClick="btninsert_Click" />
+                <asp:Button ID="BTNSHOW" runat="server" Text="show" OnClick="BTNSHOW_Click" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <asp:GridView ID="gvsql" runat="server"></asp:GridView>
+            </td>
+        </tr>
+    </table>
